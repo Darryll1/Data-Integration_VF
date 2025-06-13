@@ -1,0 +1,29 @@
+{
+  "aggregate_income": {
+    "path": "/app/population_survey_project/hdfs_data/aggregate-household-income-in-the-past-12-months-in-2015-inflation-adjusted-dollars.csv",
+    "format": "csv",
+    "options": {
+      "header": "true",
+      "inferSchema": "true"
+    },
+    "id_column": "aggregate_income_Id"
+  },
+  "health_insurance": {
+    "path": "/app/population_survey_project/hdfs_data/types-of-health-insurance-coverage-by-age.csv",
+    "format": "csv",
+    "options": {
+      "header": "true",
+      "inferSchema": "true"
+    },
+    "id_column": "health_insurance_Id"
+  },
+  "self_employment_income": {
+    "path": "/app/population_survey_project/hdfs_data/self-employment-income-in-the-past-12-months-for-households.csv",
+    "format": "csv",
+    "options": {
+      "header": "true",
+      "inferSchema": "true"
+    },
+    "id_column": "self_employment_income_Id"
+  }
+}
