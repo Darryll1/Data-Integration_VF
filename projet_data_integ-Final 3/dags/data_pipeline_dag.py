@@ -10,7 +10,7 @@ default_args = {
 with DAG(
     dag_id='pipeline_population_data',
     default_args=default_args,
-    schedule_interval='@hourly',
+    schedule_interval='0 2 * * *',
     catchup=False,
     description='Pipeline Kafka -> Transformation -> Cube',
 ) as dag:
