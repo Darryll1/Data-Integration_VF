@@ -4,7 +4,12 @@
 ## Objectif de la veille
 Dans le cadre du projet d’intégration de données démographiques, une veille technologique a été réalisée afin d’identifier, comparer et sélectionner les frameworks Big Data les plus adaptés au traitement distribué de données massives, à l’ingestion de flux en temps réel et à l’analytique en batch. Cette veille a permis de justifier les choix technologiques retenus dans l’architecture du projet.
 
----
+
+## Contrôle de version
+- Utilisation de Git et GitHub pour tracer les modifications et faciliter la collaboration.
+
+## Containerisation
+- Docker + Docker Compose pour isoler les services (Kafka, Spark, Airflow, Prometheus, etc.).
 
 ## 1. Apache Hadoop
 
